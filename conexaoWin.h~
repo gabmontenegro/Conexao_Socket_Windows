@@ -1,0 +1,18 @@
+/* API para conexao socket no Windows
+** Autor: Gabriel Montenegro Villacrez
+** Instituto Transire
+** v.1.0, ultima atualizacao 10/01/2018 */
+
+
+#ifndef conexaoLinux_h__
+#define conexaoLinux_h__
+
+#ifdef __cplusplus
+extern "C"{
+#endif
+
+int socket_connect(char *IP, in_port_t port);
+
+#ifdef __cplusplus
+}
+#endif
